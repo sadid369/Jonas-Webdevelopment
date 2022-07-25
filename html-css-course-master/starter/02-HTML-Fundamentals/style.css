@@ -1,3 +1,7 @@
+* {
+  margin: 0;
+  padding: 0;
+}
 article {
   border: 5px solid rgb(0, 0, 0);
   font-family: sans-serif;
@@ -26,17 +30,16 @@ ul {
   list-style: square;
 }
 button {
+  width: 100%;
+  padding: 15px;
   color: white;
   background-color: black;
-  width: 200px;
-  height: 25px;
-  font-size: 25px;
-  margin: 0px;
-  padding: 0px;
-  border-width: 0px;
-  border: none;
+  height: 50px;
+  font-size: 20px;
+
   cursor: pointer;
   text-transform: uppercase;
+  border: 5px solid rgb(0, 0, 0);
 }
 button:hover {
   background-color: white;
@@ -45,4 +48,8 @@ button:hover {
 .free-shiping {
   color: rgb(122, 117, 117);
   text-transform: uppercase;
+}
+.container {
+  width: 800px;
+  margin: 20px auto;
 }

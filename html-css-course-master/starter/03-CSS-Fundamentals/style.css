@@ -2,16 +2,23 @@
   margin: 0;
   padding: 0;
 }
+/* Page Sections */
 body {
   font-family: sans-serif;
   color: #444;
   border-top: 10px solid #1098ad;
 }
+
 nav {
   font-size: 18px;
 }
 article {
   margin-bottom: 60px;
+}
+.container {
+  width: 800px;
+
+  margin: 0 auto;
 }
 .main-header {
   background-color: #f7f7f7;
@@ -20,7 +27,7 @@ article {
   padding-right: 40px; */
   padding: 20px 40px;
   margin-bottom: 60px;
-  height: 80px;
+  /* height: 80px; */
 }
 .post-header {
   margin-bottom: 40px;
@@ -32,6 +39,7 @@ aside {
   padding: 50px 0;
   width: 500px;
 }
+/* Smaller Elements */
 h1,
 h2,
 h3 {
@@ -100,7 +108,18 @@ li:last-child {
 .related {
   list-style: none;
 }
-
+nav a:link {
+  /* background-color: orangered;
+  margin: 20px;
+  padding: 20px;
+  display: block; */
+  margin-right: 30px;
+  margin-top: 10px;
+  display: inline-block;
+}
+nav a:link:last-child {
+  margin-right: 0;
+}
 /* .first-li {
   font-weight: bold;
 } */
