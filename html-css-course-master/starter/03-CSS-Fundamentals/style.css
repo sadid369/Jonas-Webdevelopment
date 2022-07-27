@@ -7,10 +7,12 @@ body {
   font-family: sans-serif;
   color: #444;
   border-top: 10px solid #1098ad;
+  position: relative;
 }
 
 nav {
   font-size: 18px;
+  text-align: center;
 }
 article {
   margin-bottom: 60px;
@@ -19,6 +21,7 @@ article {
   width: 800px;
 
   margin: 0 auto;
+  /* position: relative; */
 }
 .main-header {
   background-color: #f7f7f7;
@@ -31,6 +34,7 @@ article {
 }
 .post-header {
   margin-bottom: 40px;
+  /* position: relative; */
 }
 aside {
   background-color: #f7f7f7;
@@ -172,4 +176,37 @@ footer p {
 .post-img {
   width: 100%;
   height: auto;
+}
+button {
+  font-size: 22px;
+  padding: 20px;
+  cursor: pointer;
+  position: absolute;
+  /* top: 50px;
+  left: 50px; */
+  bottom: 50px;
+  right: 50px;
+}
+h1::first-letter {
+  font-style: normal;
+  margin-right: 5px;
+}
+/* h3 + p::first-line{
+  color: red;
+} */
+h2 {
+  /* background-color: orange; */
+  position: relative;
+}
+h2::after {
+  content: "TOP";
+  background-color: #ffe70e;
+  color: #444;
+  font-size: 16px;
+  font-weight: bold;
+  display: inline-block;
+  padding: 5px 10px;
+  position: absolute;
+  top: -10px;
+  right: -25px;
 }
