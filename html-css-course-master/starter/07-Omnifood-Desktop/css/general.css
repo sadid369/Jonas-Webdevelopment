@@ -37,7 +37,7 @@ Paragraph Default: 1.6
 
 ---06 BORDER_RADIUS
 Default: 9px
-
+Medium: 11px
 ---07 SPACING SYSTEM (Px)
 2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
 
@@ -155,4 +155,8 @@ html {
 }
 .margin-right-sm {
   margin-right: 1.6rem !important;
+}
+
+strong {
+  font-weight: 500;
 }
